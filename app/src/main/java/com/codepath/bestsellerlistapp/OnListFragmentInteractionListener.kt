@@ -7,5 +7,7 @@ package com.codepath.bestsellerlistapp
  * In this app, it's implemented by [BestSellerBooksFragment]
  */
 interface OnListFragmentInteractionListener {
+    abstract val progressBar: Any
+
     fun onItemClick(item: BestSellerBook)
 }
